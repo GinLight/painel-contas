@@ -4,7 +4,7 @@ from collections import defaultdict
 import os
 
 NOTION_TOKEN  = os.environ.get("SECRET_NOTION_TOKEN", "")
-DATABASE_ID   = "34d7b512-9145-804d-8aa8-000b302cd10c"
+DATABASE_ID   = "34d7b512-9145-8188-85a6-00272c17b5a3"
 ARQUIVO_SAIDA = "index.html"
 MES_REF       = "Abril 2026"
 
