@@ -135,7 +135,7 @@ body{{min-height:100dvh;font-family:Inter,sans-serif;font-size:var(--text-base);
 .breakdown-icon{{font-size:1rem}}.breakdown-label{{font-size:var(--text-xs);color:var(--color-text-muted)}}.breakdown-value{{font-size:var(--text-sm);font-weight:700;color:var(--color-text)}}
 details.details-section summary{{font-size:var(--text-xs);color:var(--color-primary);cursor:pointer;user-select:none;list-style:none;display:flex;align-items:center;gap:var(--space-2);font-weight:600;padding:var(--space-2) 0;border-top:1px solid var(--color-divider)}}
 details.details-section summary::-webkit-details-marker{{display:none}}
-details.details-section summary::before{{content:'\25B6';font-size:.6rem;transition:transform .2s}}
+details.details-section summary::before{{content:'▶';font-size:.6rem;transition:transform .2s}}
 details[open] summary::before{{transform:rotate(90deg)}}
 .items-list{{margin-top:var(--space-3);display:flex;flex-direction:column;gap:var(--space-2)}}
 .item-row{{display:flex;align-items:center;gap:var(--space-2);font-size:var(--text-xs)}}
